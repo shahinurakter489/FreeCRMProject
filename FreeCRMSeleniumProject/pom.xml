@@ -2,29 +2,22 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>FreeCRMSeleniumProject</groupId>
-	<artifactId>FreeSeleniumProject</artifactId>
-	<version>0.0.1</version>
+	<groupId>BDDProject</groupId>
+	<artifactId>BDDProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<developers>
 		<developer>
-			<id>Shahinur akter</id>
-			<name>Shahinur akter</name>
+			<id>Juel</id>
+			<name>Juel</name>
 			<organization>TalenTech</organization>
 			<organizationUrl>http://www.talentech.com</organizationUrl>
 			<roles>
-				<role>SDET</role>
+				<role>QE</role>
 			</roles>
 		</developer>
 	</developers>
 
 	<dependencies>
-
-		<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc6 -->
-		<dependency>
-			<groupId>com.oracle.database.jdbc</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.4</version>
-		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -118,7 +111,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<includes>
-						<include>**/UpsTestRunner.java</include>
+						<include>**/TestRunner.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 					<excludes>
@@ -129,3 +122,4 @@
 		</plugins>
 	</build>
 </project>
+

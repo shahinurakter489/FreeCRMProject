@@ -1,4 +1,4 @@
-package freeCRM.utilities;
+package freeCRMutilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,12 +6,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverSetUp {
-public static WebDriver chromeDriver= null;
+public static WebDriver chromeDriver = null;
+
 public static void setupChromeDriver() {
 	WebDriverManager.chromedriver().setup();
 	chromeDriver = new ChromeDriver();
-} 
-public static void quiteChromeDriver() {
+}
+public static void quitChromeDriver() {
 	chromeDriver.quit();
 }
 }

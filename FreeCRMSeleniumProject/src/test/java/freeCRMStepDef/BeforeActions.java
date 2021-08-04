@@ -1,6 +1,6 @@
 package freeCRMStepDef;
 
-import freeCRM.utilities.DriverSetUp;
+import freeCRMutilities.DriverSetUp;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 

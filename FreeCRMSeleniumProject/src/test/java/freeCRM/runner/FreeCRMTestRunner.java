@@ -8,7 +8,7 @@ public class FreeCRMTestRunner {
 			"json:target/cucumber-jsonreports/cucumber.json",
 			"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, features = {
 					"src/test/resources/FeatureFiles" }, glue = {
-							"ups.StepDefinitions" }, tags = {"@Sanity or @Regression"} , monochrome = true)
+							"Free CRM.StepDefinitions" }, tags = {"@Sanity or @Regression"} , monochrome = true)
 
 	public class RunCukesTest extends AbstractTestNGCucumberTests {
 

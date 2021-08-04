@@ -6,13 +6,14 @@ Feature: Free CRM Search free CRM functionality
     When Search for Free CRM
     Then Item list should have only Free CRM related Business
 
-  @Regression
-  Scenario Outline: Search for item with list
+  @Regression @Sanity
+  Scenario Outline: Search for item with list free CRM
     Given open Free CRM WebSite
     When Search  for "<Items>"
     And Filter by "<Any Business>"
-    Then Item list should have product of"Business"
+    Then Item list should have  "free crm list for business"
 
     Examples: 
-      | Items | Busniess |
-      |       |          |
+      | Items   | Busniess |
+      | Home    | HIPAA    |
+      | Service | Dental   |

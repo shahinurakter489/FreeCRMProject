@@ -3,7 +3,7 @@ package freeCRMStepDef;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import freeCRM.utilities.DriverSetUp;
+import freeCRMutilities.DriverSetUp;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 
@@ -30,7 +30,7 @@ public class AfterActions {
 		}
 
 		System.out.println(">> Closing Chrome Brwoser");
-		DriverSetUp.quiteChromeDriver();
+		DriverSetUp.setupChromeDriver();
 
 	}
 
